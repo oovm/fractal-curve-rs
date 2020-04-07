@@ -1,0 +1,13 @@
+[package]
+name = "fractal-curve"
+version = "0.1.0"
+authors = ["Aster <galaster@foxmail.com>"]
+description = "fractal curves generation"
+edition = "2018"
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/GalAster/fractal-curve-rs"
+exclude = ["/tests/*", "/.idea/*", "/benches/*"]
+
+[dependencies]
+svg = "0.8"
